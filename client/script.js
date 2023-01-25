@@ -79,7 +79,7 @@ const handleSumbit = async (e) => {
 
   // fetch data from server
 
-  const response = await fetch('http://localhost:9999', {
+  const response = await fetch('https://m-e-i-p-a.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
